@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1280px){
+    .work-img {
+        width: 301px;
+        height: 182px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    /*Tablets [601px -> 1200px]*/
+
+    .clip-1 {
+        width: 100%;
+        position: absolute;
+        height: 45%;
+    }
+    .clip-2 {
+        
+        height: 41%;
+    }
+    .r-top {
+        padding-top: 122px;
+        overflow: hidden;
+        padding-bottom: 108px;
+    }
+  
+    .text-name, .text-email, .text-msg {
+        width: 31rem;
+    }
+    .bubbles{
+        overflow: hidden !important;
+        overflow-x: hidden !important;
+    }
+    .bubble{
+        /* overflow: hidden !important; */
+    }
+    .main-top {
+     overflow: hidden;   
+    }
+    .work-img {
+        width: 301px;
+        height: 182px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 650px){
+	/*Big smartphones [426px -> 600px]*/
+    .navbar-brand {
+        font-size: 16px;
+        color: #fff;
+}
+.btn{
+    padding: 2px 2px ;
+}
+.navbar{
+    width: 60%;
+}
+.abt-top{
+    /* margin-top: 120px; */
+}
+.abt-top {
+    
+    padding: 1px;
+    
+    padding-top: 84px;
+    padding-left: 60px;
+}
+.text-name, .text-email, .text-msg {
+    width: 23rem;
+}
+.submit{
+    width: 7rem;
+}
+
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .work-img {
+        width: 320px;
+        height: 170px;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .navbar {
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        z-index: 200;
+        left: 0%;
+      
+    }
+    .clip-1 {
+        display: none;
+        }
+    .clip-2 {
+        display: none;
+    }.about-info {
+        width: 607px;
+        height: 496px;
+    }
+    .about-info span{
+        font-size: .8em;
+
+    }
+    .text-name, .text-email, .text-msg {
+        width: 15rem;
+    }
+    .mh-skills .mh-professional-skill {
+        padding-right: 25px;
+        color: #fff;
+    }
+    .mh-professional-skills {
+        padding-left: 0%;
+    }
+    .submit {
+        width: 5rem;
+    }
+    }
+    @media only screen and (max-width: 320px){
+.about-info span{
+    font-size: 12px;
+
+}
+.mh-skills .mh-professional-skill {
+padding-left: 25px;
+}
+.work-img {
+    width: 233px;
+    height: 121px;
+}
+ 
+.work ul li button {
+    font-size: 9px;
+    padding: 5px;
+}
+.abt-top h4{
+    font-size: 14px;
+}
+.navbar-brand {
+    font-size: 12px;
+    color: #fff;
+}
+.text-light{
+    font-size: 10px;
+}
+.abt-top {
+    padding: 1px;
+    padding-top: 84px;
+    padding-left: 29px;
+    align-items: flex-start;
+}
+.batn{
+    font-size: 12px;
+}
+.work-box ul {
+    margin-top: 8px;
+}
+.text-name input, .text-email input, .text-msg textarea {
+font-size: 10px;
+}
+ 
+.text-name, .text-email, .text-msg {
+    width: 11rem;
+}
+.form-container h4 {
+      
+    font-size: 16px;
+}
+.submit {
+    width: 4rem;
+    margin-left: 12px;
+}
+.submit input {
+font-size: 10px;
+padding: 4px;
+}
+}
